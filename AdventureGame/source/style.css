@@ -1,0 +1,145 @@
+.gesamt {
+	-fx-min-width: 800px;
+	-fx-min-height: 800px;
+/*	-fx-background-color: grey; */
+	-fx-alignment: center;
+}
+
+.untenGesamt {
+	-fx-min-width: 100%;
+	-fx-min-height: 760px;
+/*	-fx-background-color: mediumvioletred; */
+	-fx-alignment: center;
+}
+
+.linksGesamt {
+	-fx-min-width: 600px;
+	-fx-min-height: 100%;
+/*	-fx-background-color: green; */
+/*	-fx-alignment: center; */
+}
+
+.objekteImOrtFeld {
+	-fx-min-width: 200px;
+	-fx-min-height: 100%;
+/*	-fx-background-color: blue; */
+/*	-fx-alignment: center; */
+	-fx-border-color: black;
+	-fx-border-radius: 2px;
+}
+
+.textMitPfeilen {
+/*	-fx-background-color: hotpink; */
+	-fx-min-width: 100%;
+	-fx-min-height: 480px;
+	-fx-alignment: center;
+}
+
+.textFelder {
+/*	-fx-background-color: deepskyblue; */
+	-fx-min-height: 300px;
+	-fx-min-width: 100%;
+}
+
+.spielTextFeld {
+	-fx-min-width: 80%;
+/*	-fx-background-color: red; */
+	-fx-min-width: 560px;
+	-fx-min-heigth: 100%;
+	-fx-alignment: center;
+}
+
+.objektTabelle {
+/*	-fx-background-color: pink; */
+	-fx-min-width: 100%;
+	-fx-min-width: 100%;
+	-fx-font-weight: bold;
+}
+
+.ortsAngabe {
+	-fx-font-weight: bold;
+/*	-fx-background-color: cyan; */
+}
+
+.infoLeisteOben {
+/*	-fx-background-color: lightseagreen; */
+	-fx-min-height: 20px;
+	-fx-min-width: 800px;
+}
+
+.pfeilObenLeiste {
+	-fx-alignment: center;
+	-fx-min-width: 20px;
+/*	-fx-background-color: yellow; */
+}
+}
+
+.pfeilUntenLeiste {
+	-fx-alignment: center;
+	-fx-min-width: 100%;
+	-fx-min-height: 5%;
+/*	-fx-background-color: orange; */
+}
+
+.pfeilLinksLeiste {
+	-fx-alignment: center;
+/*	-fx-background-color: darksalmon; */
+	-fx-min-width: 20px;
+	-fx-min-height: 100%;
+}
+
+.pfeilRechtsLeiste {
+	-fx-alignment: center;
+/*	-fx-background-color: lime;*/
+	-fx-min-width: 20px;
+	-fx-min-height: 100%;
+}
+
+.pfeilOben {
+	-fx-alignment: center;
+	-fx-rotate: -90;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(1.0, 0.6, 0.0, 1.0);
+}
+
+.pfeilUnten {
+	-fx-alignment: center;
+	-fx-rotate: 90;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(1.0, 0.6, 0.0, 1.0);
+}
+
+.pfeilLinks {
+	-fx-alignment: center;
+	-fx-rotate: 180;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(1.0, 0.6, 0.0, 1.0);
+}
+
+.pfeilRechts {
+	-fx-alignment: center;
+	-fx-rotate: 0;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgba(1.0, 0.6, 0.0, 1.0);
+}
+
+.inventarFeld {
+	-fx-min-width: 300px;
+/*	-fx-background-color: red; */
+	-fx-border-color: black;
+	-fx-border-radius: 1px;
+}
+
+.notizenFeld {
+	-fx-min-width: 300px;
+	-fx-border-color: black;
+	-fx-border-radius: 1px;
+}
+
+.notizen {
+	-fx-font-weight: bold;
+}
+
+.inventar {
+	-fx-font-weight: bold;
+}

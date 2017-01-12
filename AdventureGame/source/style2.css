@@ -1,0 +1,249 @@
+.mainArea {
+	-fx-min-width: 500px;
+}
+
+.spieltext {
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-font-family: consolas;
+	-fx-fill: rgba(210, 210, 200, 1.0);
+}
+
+.spieltextanzeige {
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+}
+
+.pfeilObenLeiste {
+	-fx-alignment: center;
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-border-width: 2px 2px 0px 2px;
+	-fx-border-color: sandybrown;
+}
+
+.pfeilUntenLeiste {
+	-fx-alignment: center;
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-border-width: 0px 2px 2px 2px;
+	-fx-border-color: sandybrown;
+}
+
+.pfeilLinksLeiste {
+	-fx-alignment: center;
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-border-width: 0px 0px 0px 2px;
+	-fx-border-color: sandybrown;
+	-fx-padding: 10px;
+}
+
+.pfeilRechtsLeiste {
+	-fx-alignment: center;
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-border-width: 0px 2px 0px 0px;
+	-fx-border-color: sandybrown;
+	-fx-spacing: 10px;
+}
+
+.pfeilOben {
+	-fx-rotate: -90;
+	-fx-text-fill: rgba(50, 50, 50, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 18px;
+	-fx-font-family: consolas;
+	-fx-background-color: rgba(255, 255, 255, 1.0);
+	-fx-pref-height: 60px;
+	-fx-border-radius: 20px;
+}
+
+.pfeilOben:hover {
+	-fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.pfeilUnten {
+	-fx-rotate: 90;
+	-fx-text-fill: rgba(50, 50, 50, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 18px;
+	-fx-font-family: consolas;
+	-fx-background-color: rgba(255, 255, 255, 1.0);
+	-fx-pref-height: 60px;
+	-fx-border-radius: 20px;
+}
+
+.pfeilUnten:hover {
+	-fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.pfeilLinks {
+	-fx-rotate: 180;
+	-fx-text-fill: rgba(50, 50, 50, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 18px;
+	-fx-font-family: consolas;
+	-fx-background-color: rgba(255, 255, 255, 1.0);
+	-fx-pref-height: 60px;
+	-fx-border-radius: 20px;
+}
+
+.pfeilLinks:hover {
+	-fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.pfeilRechts {
+	-fx-rotate: 0;
+	-fx-text-fill: rgba(50, 50, 50, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 18px;
+	-fx-font-family: consolas;
+	-fx-background-color: rgba(255, 255, 255, 1.0);
+	-fx-pref-height: 60px;
+	-fx-border-radius: 20px;
+}
+
+.pfeilRechts:hover {
+	-fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.ortsangabe {
+	-fx-text-fill: rgba(0, 128, 128, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+	-fx-font-family: consolas;
+}
+
+.infoBar {
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-padding: 3px;
+/*	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-color: rgba(0, 128, 128, 1.0); */
+}
+
+.menuBar {
+	-fx-background-color: rgba(0, 0, 0, 0.0);
+	-fx-spacing: 5px;
+}
+
+.menu-button .label {
+	-fx-text-fill: rgba(50, 50, 50, 1.0);
+}
+
+.menu-button {
+	-fx-background-color: rgba(255, 255, 255, 1.0);
+	-fx-background-radius: 20px;
+}
+
+.menu-button:hover {
+	-fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.menu-item {
+	-fx-background-color: rgba(0, 0, 0, 0);
+	-fx-background-radius: 20px;
+}
+
+.menu-item:hover .label {
+	-fx-font-weight: bold;
+}
+
+.context-menu {
+	-fx-background-color: rgba(255, 255, 255, 1.0);
+	-fx-background-radius: 20px;
+	-fx-translate-y: 2px;
+}
+
+.inventarUndNotizen {
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-min-width: 50%;
+}
+
+.notizenFeld {
+	-fx-text-fill: rgba(255, 220, 0, 1.0);
+	-fx-font-family: consolas;
+	-fx-font-weight: bold;
+	-fx-border-color: deepskyblue;
+	-fx-border-width: 2px;
+	-fx-border-radius: 0px;
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-wrap-text: true;
+}
+
+.notizenFeld .content {
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+}
+
+.notizenLabel {
+	-fx-text-fill: deepskyblue;
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+	-fx-font-family: consolas;
+}
+
+.inventarLabel {
+	-fx-text-fill: rgba(170, 130, 50, 1.0);
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+	-fx-font-family: consolas;
+}
+
+.objekteImOrt {
+/*	-fx-min-width: 200px; */
+	-fx-background-color: rgba(50, 50, 50, 1.0);
+	-fx-border-color: sandybrown;
+	-fx-border-width: 2px 0px 2px 0px;
+	-fx-spacing: 10px;
+	-fx-padding: 5px;
+	-fx-alignment: top-center;
+}
+
+.objekteImOrt .objekt {
+	-fx-background-color: rgba(0,0,0,0.08), linear-gradient(#5aaf66, #516d58), linear-gradient(#e4fff5 0%,#cefbe4 10%, #a5fbda 50%, #88fbb9 51%, #d5fff8 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+/*    -fx-text-fill: #242d35; */
+	-fx-text-fill: rgba(50, 50, 50, 1.0);
+/*    -fx-font-size: 14px; */
+	-fx-min-width: 200px;
+}
+
+.objekt {
+	-fx-font-weight: bold;
+	-fx-font-family: consolas;
+	-fx-cursor: hand;
+}
+
+.objekteImOrtLabel {
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+	-fx-font-family: consolas;
+}
+
+.separator {
+	-fx-background-color: white;
+}
+
+.inventar {
+	-fx-pref-width: 400px;
+	-fx-border-color: sandybrown; 
+	-fx-border-width: 0px 2px 0px 0px;
+}
+
+.tooltip {
+	-fx-font-family: consolas;
+	-fx-content-display: center;
+}
+
+.resizeRechts {
+	-fx-min-width: 4px;
+	-fx-max-width: 4px;
+}
+
+.resizeUnten {
+	-fx-min-height: 4px;
+	-fx-max-heigth: 4px;
+}
+
+.resizeInventar {
+	-fx-min-width: 4px;
+	-fx-max-width: 4px;
+}
